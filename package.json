@@ -1,0 +1,16 @@
+{
+  "name": "execa-memory-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:node": "node src/node-child-proc-run.js",
+    "start:execa": "node src/execa-run.js"
+  },
+  "dependencies": {
+    "execa": "^2.0.3",
+    "jest": "^24.8.0",
+    "pidusage": "^2.0.17",
+    "wtfnode": "^0.8.0"
+  }
+}
